@@ -56,7 +56,3 @@ func (s *Service) UpdateComment(ctx context.Context, cmt Comment) error {
 func (s *Service) DeleteComment(ctx context.Context, id string) error {
 	return ErrNotImplemented
 }
-
-func (s *Service) CreateComment(ctx context.Context, cmt Comment) (Comment, error) {
-	return Comment{}, ErrNotImplemented
-}
